@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  server_debian:
+    image: debian:8
+    container_name: debian_jessie
+    tty: true
+    platform: linux/x86_64 #for M1 user only
